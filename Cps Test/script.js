@@ -5,7 +5,7 @@ var time;
 
 function Click()
 {
-   
+    // Calculating user's clicks and save it.
     click_count = document.getElementById('click').innerHTML++;
     time = setTimeout(Timer, 10000);
 
