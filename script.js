@@ -14,9 +14,10 @@ function Timer()
 {
     btn['disabled'] = true;
     clearTimeout(time);
-    var cps = click_count / 10.00;
+    var cps = click_count / 10.00; // Calculating click per 10 seconds
     result.innerHTML = cps;
 
+    // Showing different scores by colors
     if (cps <= 3) {
         result.style.color = 'red';
     }
